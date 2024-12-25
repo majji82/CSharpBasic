@@ -1,0 +1,45 @@
+C# is a programming language and DotNet is a framework for building applications.
+
+.NET consists of 2 components:
+
+=> CLR - Common Language Runtime
+=> Class Library
+
+What is CLR?
+
+=> Before C# we used to have C and C++ in the C family
+=> In Either of the languages the compiler translated the code to the native code for that machine 
+=> That compiled application would not run on different machine with different configuration
+=> In Java, the code is not directly translated to machine code, instead translated into Intermediate language called byte code
+=> C# borrowed this idea..and when we compile it the result is IL [Intermediate Language]
+=> This IL is independent on the computer it is running..
+
+This IL Code must be converted into native code which is the job of CLR..
+CLR is an application in the memory which converts translates IL to machine code which is called JIT [Just-In-time] compilation.
+The application written in C# can be compiled on any machine which contains CLR...
+
+Architecture of .NET framework:
+
+=> At a high-level when we build applications with C#, the application consists building blocks called classes
+=> These classes collaborate with eachother at run-time and as a result the application provides the expected functionality.
+=> Class:
+	A class is a container which contains data(attributes) and methods(functions)
+	Functions/Methods have behaviour. Data represents the state of the application
+	Ex:
+		Car - Data		=> Model, Color, Make
+			  Methods	=> Start(), Move()
+=> In real-world applications we have many classes where each class is responsible for a piece of functionality
+=> As no of classes grows we use namespace to organize these classes.
+=> namespace is a container for related classes.
+=> An assembly is a container for related namespaces...
+=> Assembly is physically a file which is executable (EXE) Or (DLL) [Dynamically linked library]
+=> Assembly is a single unit of deployment of .NET applications 
+
+
+Visual Studio
+
+Creating new Project:
+
+File => New => Project => ConsoleApplication (without GUI) => Give a name to the project
+
+Note: C# is case-sensitive
