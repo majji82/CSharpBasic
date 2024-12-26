@@ -1,0 +1,40 @@
+In C# there are 5 types of operators:
+
+- Arithematic
+- Comparison
+- Assignment
+- Logical
+- Bitwise
+
+Arithematic operators:
+	Used in computations (basically with numbers) Ex: Addition, Subtraction, Multiplication, Division, Remainder, Increment and Decrement
+
+	a++ => a=a+1
+	a-- => a=a-1
+
+	b = a++ is postfix => first a is assigned to b, then a is incremented
+	b = ++a is prefix  => first a is incremented and then it is assigned to b
+
+Comparison Operators:
+	Equal, NotEqual, GreaterThan, GreaterThanOrEqualTo, LessThan, LessThanOrEqualTo 
+	[==, !=, >, >=, <, <=]
+
+Assignment operators:
+	=, +=, -=, *=, /=
+	a+=3 => a=a+3
+	a/=4 => a=a/4
+
+Logical Operators:
+	Used in boolean expressions often used in conditional statements.
+	[&&, ||, !] 
+	let x = a && b => if both a and b is true then x is true
+	let x = a||b   => if either a or b is true, then x is true
+
+Bitwise Operators:
+	& => And => Bitwise and
+	| => Or => Bitwise Or
+
+Note:
+	Multiplication and Division Has higher presedence than add/subtract
+	We can change the presendence by using paranthesis.
+	Result of comparison expression is always a boolean value (either true or false)

@@ -1,0 +1,10 @@
+Two ways:
+
+// => Single line
+
+/*
+	Lines
+	Multiple
+*/
+
+=> Keep comments to minimum => explain why's, how's and constraints

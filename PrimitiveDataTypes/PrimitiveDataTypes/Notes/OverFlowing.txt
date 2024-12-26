@@ -1,0 +1,15 @@
+byte number = 255;
+number += 1;
+
+Console.WriteLine(number);
+
+This program gives 0 as output. This is overflowing.. If we go beyond the boundary of dataType, we will get overflow.
+
+To stop overflowing we need to use checked keyword..
+checked
+{
+	byte number = 255;
+	number += 1;
+}
+
+By using checked keyword overflow will not happen and throws an exception.

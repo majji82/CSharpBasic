@@ -1,0 +1,50 @@
+Types of conversions:
+
+=> Implicit Conversion
+=> Explicit Conversion (casting)
+=> Conversion between non-compatible types
+
+Implicit Type conversion:
+
+- Implicit type conversion will happen when the compiler knows that there is no data-loss.
+Ex:
+
+byte b = 5;
+int i = b;
+
+Console.WriteLine(b);
+Console.WriteLine(i); // There is no dataLoss when a byte is converted to int..
+
+int num1 = 20;
+byte b1 = num1;
+Here there is a chance of dataloss as we are storing an int in a byte.. So implicit conversion don't happen
+
+Note:
+=> Hence we tell the compiler that we are aware of the dataloss and we do explicit conversion which is casting by placing the dataType in braces.. [This may lead to OverFlow]
+
+Ex: int num1 = 60;
+	byte b1 = (byte)num1;
+
+Non-compatible types:
+
+String and Int are not compatible...In such a case we use converClass or parseMethod.
+Ex:
+	string s = "1";
+	int i = convert.ToInt32(s);
+	int j = int.Parse(s); // All the primitive datatypes have parse method.
+
+string wordNum = "1032";
+byte number = Convert.ToByte(wordNum);
+Console.WriteLine(number); => This gives an exception as the number is too big..(System.OverFlowException)
+
+Convert Class throws an exception whenever it cannot convert (i.e. value is too small/ too large)
+
+Methods in the Convert Class:
+
+ToByte()
+ToInt16() //Short
+ToInt32() //Int
+ToInt64() //Long
+
+
+Note: Never ever use meaning-less names (like a, b, x)..Always use meaningful names for better readability [Exception: loops]

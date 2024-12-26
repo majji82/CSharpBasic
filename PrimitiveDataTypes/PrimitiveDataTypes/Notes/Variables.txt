@@ -1,0 +1,66 @@
+Variables and Constants:
+
+Variable is a name given to the storage location in the memory where we store a value.
+Constant is an immutable value which is known at compile time and is not changed throughout the life of application.
+
+constant is created for safety in our application for values which we donot want to change.
+Ex: int PI = 3.14
+
+Note: C# is a case-sensitive language.
+
+Declaring and initializing a variable:
+
+datatype varName; => This is declaring a variable
+datatype varName = value; => This is initializing a variable
+
+Constants:
+
+const dataype varName = value; // We must initialize a value to the constant
+const float PI = 3.14f;
+
+Identifiers:
+	Identifiers are the user-defined names of program components.
+
+Rules for identifiers:
+
+=> Cannot start with a number
+=> Cannot include whitespace
+=> Cannot be a reserve keyWord
+=> Always use meaningfulNames
+
+Naming conventions:
+
+=> camelCase:  firstName
+=> PascalCase: FirstName
+=> hungarianNotation:  strFirstName [Not used in C#...used in C/C++]
+
+localVariables use camelCase...constants use PascalCase
+
+C# Types:
+
+Integral:  byte, short, int, long
+Real:	   float, double, decimal
+Character: char
+Boolean:   bool
+
+Note:
+
+float num = 3.14f;		// Add suffix f to float
+decimal num = 5.699m;	// Add suffix m to decimal
+
+=> By default C# treats numbers as Integers. [So be careful while declaring var to numbers / avoid using var]
+=> Before accessing any variable it has to be initialized
+
+var keyword:
+
+=> var keyword can be used in C# instead of datatypes specifically. It automatically detects the dataType
+Ex: var isWorking = false; // detects it as boolean
+
+Format String:
+
+Console.WriteLine("My firstName is {0} and lastName is {1}", "Majji", "Janardhan");
+
+Scope:
+
+=> Scope is the place where variables have meaning and can be accessible.
+=> If there is a variable inside a block then it is only accessible inside that block and their children blocks.
