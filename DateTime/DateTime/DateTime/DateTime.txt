@@ -1,0 +1,6 @@
+Dates And Times in C#
+
+There is a DateTime() in C# with which we can work on Dates And Times using pre-built functions.
+We can also work on current DateTime using DateTime.Now...As Current DateTime cannot be different it must be a static one..so we directly access it with DateTime instead of the object
+
+Ex: var now = DateTime.Now;

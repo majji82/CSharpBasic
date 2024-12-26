@@ -1,0 +1,8 @@
+Timespan is the duration between two times..
+
+This can be created by using the TimeSpan() or difference between twoDateTimes
+
+Notes:
+
+=> Both DateTime and TimeSpan are structures
+=> Both are immutable
