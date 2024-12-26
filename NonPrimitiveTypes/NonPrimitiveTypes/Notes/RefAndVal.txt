@@ -1,0 +1,51 @@
+We have seen multiple primitive and nonPrimitive DataTypes
+Underlying every dataType is either a class or a structure.
+
+=> All Primitive types are structures. They are internally defined as structures in .NET
+=> Arrays, Strings come under classes ..We can also create custom classes
+
+They are different in terms of memory Management...
+
+Structures => Value types
+
+- Allocated in stack
+- Memory gets automatically allocated
+- Immediately removed when it is out of the scope
+
+Reference Types:
+
+- We need to allocate memory
+- Memory is allocated on heap [more sustainable]
+- Won't be removed immediately
+
+
+var a = 10;
+var b = a;
+
+b++;
+
+Console.WriteLine(a + " " + b);
+
+Here value of a will be 10 because when we write b=a, The value of a will be taken and stored in b.
+Value type: only values will be copied (a and b are independent)
+
+var array1 = new int[5] {1,2,3,4,5};
+var array2 = array1;
+array1[0] = 0;
+
+Console.WriteLine(array1[0]);
+Console.WriteLine(array2[0]);
+
+If we change values in either in single array, it changes in both the arrays.
+
+What happens?
+
+=> When we initialize an array it creates an object in the heap.
+=> This object is in a memory location with an address.
+=> Inside this memory location we have the actual array
+=> Now it creates a variable named "array1" which stores the address of the actual array (object)
+=> When we copy array1 to array2, the stack creates array2 which stores the same address as array1
+=> So, actually both are pointing towards the same object/array
+=> Hence, if we make any changes, it will affect both the arrays.
+
+[Hence these are called reference types]

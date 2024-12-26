@@ -1,0 +1,24 @@
+Enum:
+
+Enum is a dataType that represent a set of name/value pairs or (constants).
+
+UseCases:
+
+	Use enum where we have a set of related constants
+
+Note:
+
+enum is by-default an integer dataType
+We can access the members in enum by using dot notation
+
+
+var method = ShippingMethod.RegisteredAirMail;
+Console.WriteLine((int)method);
+
+var methodNumber = 3;
+Console.WriteLine((ShippingMethod)methodNumber);
+
+String to Enum:
+
+var methodName = "Express";
+var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);

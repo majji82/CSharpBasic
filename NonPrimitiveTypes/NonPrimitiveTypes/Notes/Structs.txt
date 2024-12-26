@@ -1,0 +1,12 @@
+Structs/Structure
+
+=> Syntax is similar to class..Instead of class keyword we use struct keyword
+
+public struct RgbColor
+{
+	public int red;
+	public int green;
+	public int blue;
+}
+
+// Avoid using structures..It is almost similar to classes

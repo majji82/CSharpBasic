@@ -1,0 +1,20 @@
+Arrays:
+
+Array is a data-structure to store a collection of variables of same type.
+
+Declaration:
+
+dataType[] varName = new dataType[arraySize];
+Ex: int[] numbers = new int[3];
+
+It has a new operator which means we have to allocate memory specifically..
+
+Accessing elements:
+
+Elements in an array are 0-indexed
+They can be accessed using indexes with square brackets..Ex: num[0], num[1] etc...
+
+Note: When we declare an array and not assign a value, it will automatically set to default value..
+
+Int => default values => 0
+boolean => false

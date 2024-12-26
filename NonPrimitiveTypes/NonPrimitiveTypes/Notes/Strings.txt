@@ -1,0 +1,36 @@
+Strings:
+
+String is a sequence of characters.
+Ex: "Hello World"
+
+Creating strings:
+
+1. string name = "Janardhan"
+2. string name = firstName + " " + lastName
+3. string name = string.Format("{0} {1}", firstName, lastName)	[Format is a static method]
+{0} {1} are placeHolders
+4. 
+
+	int nums = new int[3]{1,2,3};
+	string list = string.Join(",", nums);
+
+Accessing characters of string:
+
+Characters of string can be accessed using indexes (0,1,2 etc...)
+ex: char firstChar = list[0]
+
+Note: Strings are immutable (Once created cannot be changed)
+The original string is not changed no matter what
+
+Escape Characters:
+
+\n => new line
+\t => Tab
+\\ => Backslash
+\' => Single quote
+\" => Double quote
+
+Verbatim strings:
+
+string path = "C:\\projects\\lenovo\\folder" => looks like a bit messy so we use
+string path = @"C:\projects\lenovo\folder"

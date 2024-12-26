@@ -1,0 +1,65 @@
+Classes:
+
+	=> Classes are building blocks of applications
+	=> These classes combine relative data/fields and methods/functions
+	Ex: Person class with name,age and height as fields and walk(), eat(), sleep() as methods(functionality)
+
+=> This class is a blueprint from which we create objects.
+=> An object is an instance of a class. Ex: Janardhan, Tillu are instances of person class
+=> Class and objects are often used interchangably.
+
+Declaring a class:
+
+AccessModifier class className
+{
+	// data and methods
+	public string Name;
+	public void Introduce()
+	{
+		Console.WriteLine("My name is : " + Name);
+	}
+}
+
+Ex:
+
+public class Calculator
+{
+	public int Add(int a, int b)
+	{	
+		return a+b;
+	}
+}
+
+Creating Objects:
+
+ClassName ObjectName = new ClassName();
+We have to explicitly allocate memory using the new keyword.
+We can also use the var keyWord at the begining.
+
+Ex:
+
+var person = new Person();
+
+Accessing the methods and data:
+
+We can access the methods and data using the dot operator.
+Ex:
+	person.name = "Janardhan";
+	person.age = 21;
+	person.Introduce();
+
+
+The static Modifier:
+
+If we add static keyword to a method, we can directly access without creating any Object
+We cannot access static members from objects...
+
+Why?
+If there is no static modifier..assume that we create 3 objects..where each object has an add method.
+If there is static keyword the add method will be only in one place in the memory
+We use this when we need only a single instance should exist in memory.
+
+Ex:
+	static void Main()...
+	CurrentDateTime()....
+	These cannot be in multiple places in the memory..
