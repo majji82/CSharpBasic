@@ -1,0 +1,20 @@
+Arrays have a fixed size...
+To overcome this we use Lists.. Lists is similar to array (store objects of same time) but it has a variable size.
+
+Array: fixed Size
+List: dynamic Size
+
+Syntax:
+
+var numbers = new List<int>();
+var numbers = new List<int>(){1,2,3,4};
+
+Useful methods:
+
+Add()
+AddRange()
+Remove()
+RemoveAt()
+IndexOf()
+Contains()
+Count

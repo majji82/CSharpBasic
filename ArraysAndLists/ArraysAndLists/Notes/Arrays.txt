@@ -1,0 +1,42 @@
+Arrays:
+
+Represents fixed no of variables with a particular type
+
+There are two types of arrays:
+1. Single dimenisonal
+2. Multi dimensional
+
+Single dimensional:
+	var numbers = new int[5]{1,2,3,4,5}; // Object initialization syntax
+
+Multi dimensional arrays:
+These are again divided into rectangular and jagged arrays.
+Rectangular:
+	Each row has exactly same no of columns
+Jagged:
+	Each row can have different columns....It is like array of arrays..
+
+Syntax for 2D rectangular array:
+
+var matrix = new int[3,5];
+var matrix = new int[3,2]
+{
+	{1,2},
+	{3,4},
+	{5,6}
+};
+
+Accessing elements :  matrix[rowIndex][columnIndex];
+
+// This is 3D array
+var matrix = new int[2,3,4];
+
+Jagged Array:
+
+Syntax:
+
+var array = new int[3][];
+array[0] = new int[3];
+array[1] = new int[4];
+
+Accessing elements: array[0][5];
