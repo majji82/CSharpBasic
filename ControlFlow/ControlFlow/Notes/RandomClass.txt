@@ -1,0 +1,10 @@
+What is Random class?
+
+Used to generate Random numbers..
+
+var random = new Random();
+This class has useful methods like:
+
+1. Next: returns Random Integer
+2. NextBytes: takes a byte array and fills with random numbers
+3. NextDouble: random double between 0 and 1

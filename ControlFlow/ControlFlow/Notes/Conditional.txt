@@ -1,0 +1,58 @@
+Conditional statements:
+
+=> If/else
+=> Switch/Case
+=> Conditional Operator
+
+If/else syntax:
+
+if(condition1)
+{
+	// statement1 executed if condition1 is true else goes to next block
+}
+else if(condition 2)
+{
+	// statement-2 executed if condition1 is true else goes to next block
+	// else if is optional and we can have multiple elseIf blocks...
+}
+else
+{
+	// this block is executed if it doesn't satisfy any of the above conditions
+}
+
+Nested If statements:
+
+=> if(condition)
+{
+	if()
+	else()
+}
+
+// Avoid using multiple nested if statements..
+
+Switch/Case:
+
+switch(variable)
+{
+	case var==v1:
+	{
+		statement;
+		break;
+	}
+	case var==v2:
+	{
+		statement;
+		break;
+	}
+	case var==v3:
+	{
+		statement;
+		break;
+	}
+	default:
+	{
+		statement;
+		break;
+	}
+}
+

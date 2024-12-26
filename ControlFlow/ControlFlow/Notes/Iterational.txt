@@ -1,0 +1,38 @@
+Iteration statements:
+
+Repeatedly execting sequence of statements.
+
+For loop
+for(initialization; condition Clause; iteration clause)
+{
+	// code [sequence of statements]
+}
+
+ForEach (for list/array natured)
+
+foreach(var number(temp var) in numbers(list name))
+{
+	// code
+}
+
+while loop
+
+while(condition)
+{
+	// code
+}
+
+do-while
+
+do
+{
+	//
+	i++;
+}while(condition)
+
+do while loop executes atleast once as the condition is checked at the end...
+
+break; => jump out of the loop
+continue; => continue to the next iteration
+
+Note: while loop is mostly used when we donot know exactly how many times the loop iterates
