@@ -1,0 +1,14 @@
+String is immutable..
+StringBuilder is a class and it represents a mutable string..
+
+It provides more methods for manipulating strings..So use it more when we deal with situations which contain manipulation of strings
+
+Ex:
+
+Append()
+Insert()
+Remove()
+Replace()
+Clear()
+
+=> Only manipulation methods no searching methods

@@ -1,0 +1,40 @@
+Strings:
+
+string keyword maps to the string class in .NET framework
+strings are immutable..Once created cannot be changed
+
+useful string methods:
+
+1) Formatting:
+	ToLower() => converts complete string to lowerCase
+	ToUpper() => converts complete string to UpperCase
+	Trim()	  => gets rid of whiteSpaces
+
+2) Searching:
+	IndexOf()
+	LastIndexOf() => Both accepts both string and character and returns index
+
+3) Substrings:
+	Substring(startIndex) => from startIndex to end of String
+	Substring(startIndex, length) => from startIndex to that particular Length
+
+4) Replacing:
+	Replace('a', 'b') => Works on both character and string
+
+5) Null Check:
+	String.IsNullOrEmpty(str)
+	String.IsNullOrWhiteSpace(str)
+
+6) Splitting:
+	str.split(' ') // array of strings
+
+Converting string to number:
+
+Ex:		string s = "1234";
+		int i = int.Parse(s)
+		int j = Convert.ToInt32(s)
+
+Converting Number to string:
+
+Ex:		int i = 1234
+		string s = i.ToString();

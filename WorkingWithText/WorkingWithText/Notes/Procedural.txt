@@ -1,0 +1,6 @@
+Procedural Programming is a programming paradigm based on procedure calls (function/method)
+We should not write all the code in the main function..we have to write in seperate function for each functionality.
+
+There are two types of paradigms:
+=> Procedural Programming 
+=> Object oriented programming
