@@ -1,0 +1,38 @@
+System.io contains many classes with which we can work with files and directories.
+Ex: File, FileInfo, Directory, DirectoryInfo, Path
+
+
+=> File and FileInfo contains methods for creating, copying, deleting, moving and opening files.
+
+FileInfo, DirectoryInfo: instance methods
+File, Directory: static methods
+
+Note:
+	For static methods OS does security check when working with files, so if there are many operations go with FileInfo class
+
+Methods for files:
+
+Create()
+Copy()
+Delete()
+Exists()
+GetAttributes()
+Move()
+ReadAllText()
+
+Methods for directories:
+
+CreateDirectory()
+Delete()
+Exists()
+GetCurrentDirectory()
+GetFiles()
+Move()
+GetLogicalDrives()
+
+Path Class:
+
+GetDirectoryName()
+GetFileName()
+GetExtension()
+GetTempPath()

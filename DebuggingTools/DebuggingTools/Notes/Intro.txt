@@ -1,0 +1,39 @@
+If we get an unexpected result then there must be some error in the code..This can be caught using breakpoints
+Run the application using debug mode by using breakpoints...In this way the execution stops at the breakpoint.
+
+F9 =>  BreakPoint
+F5 => Run in debug mode
+Ctrl + f5 => run without debug
+F10 => stepover (1 line at a time)
+F11 => stepInto
+Shift + f11 => Stepout
+shift + f5 => stop debugger
+
+If we open the watch window...then we can give the variable name so that we get the values backin return..
+
+Removing side effects:
+
+Whenever we write a code, we take the input and display the output...make sure that the input must not be changed...This is called removing side effects.
+
+=> Donot modify the external state...
+=> Don't alter global variables..etc are some examples of side effects...
+
+Defensive Programming:
+
+Check the input first before processing it..
+Check for null values, check the data type and the data's range
+=> It is safe to specify what is allowed than to list not allowed one's
+
+Watch window:
+If we open the watch window...then we can give the variable name so that we get the values backin return..
+	
+
+CallStack:
+
+It helps us to know in what order the functions are executed..from current to the first function (The order of function calls)
+
+Locals and autos window:
+Autos window is like watch window but we no leonger need to specify variables..It gives all the variables..
+
+Locals window:
+Shows the variables same like autos window but in local scope
